@@ -6,9 +6,9 @@ public class BlackJack {
         try (Scanner scanner = new Scanner(System.in)) { // Use try-with-resources to ensure Scanner is closed
             String playAgain = "yes";
 
-            while (playAgain.equalsIgnoreCase("yes")) {
-                Card card = new Card();
-                Dealer house = new Dealer();
+            while (playAgain.equalsIgnoreCase("yes")) { //if the answer yes play agian 
+                Card card = new Card(); // creates card object
+                Dealer house = new Dealer();// creates dealer object
 
                 ArrayList<String> deck = card.newDeck(); // initialize deck
                 ArrayList<String> shuffledDeck = house.shuffle(deck); // take deck and shuffle it
