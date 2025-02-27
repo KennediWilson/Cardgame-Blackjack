@@ -1,2 +1,1 @@
-# Cardgame Blackjack
- 
+This is a blackjack card game that takes user input to hit on a hand or hold their hand to get as close to 21 as possible. This game is played against the dealer (PC) to see which score is higher. For extra credit we use enums to create the array list for the deck of cards. I also added a play again method that asks a user if they want to play again. I worked with Ben and Rafael for this project
